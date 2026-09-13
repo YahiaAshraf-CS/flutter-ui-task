@@ -1,8 +1,10 @@
-import 'dart:math';
+
 
 import 'package:flutter/material.dart';
-import 'package:task1_flutter/home_screen.dart';
-import 'package:task1_flutter/test_screen.dart';
+import 'package:task1_flutter/filters_screen.dart' show FiltersScreen;
+
+import 'package:task1_flutter/sign_up_screen.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -18,7 +20,15 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       // home: TestScreen(),
-      home: HomeScreen(),
+      // home: HomeScreen(),
+
+     // home: ExploreScreen(),
+     // home: BeveragesScreen(),
+     // home: AcceptedScreen(),
+    //  home:SearchScreen(),
+    //home:MainScreen(),
+     home: SignUpScreen(),
+    
     );
   }
 }
